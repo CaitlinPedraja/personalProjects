@@ -1,0 +1,51 @@
+  
+.country__info__container {
+display: flex;
+column-gap: 33%;
+border-radius: 8px;
+padding: 4%;
+box-shadow: 0 0 5px 2px #faf5e9;
+margin: 0px 15px;
+}
+
+.country__info-img img{
+width: 120%;
+height: auto;
+padding: 0% 20%;
+}
+
+.button_info {
+height: 40px;
+width: 90px;
+color: #faf5e9;
+font-size: 15px;
+font-family: Gurajada;
+font-style: normal;
+font-weight: 400;
+margin-right: 80%;
+margin-bottom: 3% ;
+}
+
+a {
+text-decoration: none;
+color: #faf5e9;
+font-family: Gurajada;
+}
+
+.country__info h3 {
+color: #faf5e9;
+font-size: 2.1rem;
+margin-bottom: 25px;
+}
+
+.country__info-left h5 {
+color: #faf5e9;
+font-size: 1.2rem;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.country__info-left h5 span {
+color: #faf5e9;
+opacity: 85%;
+font-weight: 400;
+}

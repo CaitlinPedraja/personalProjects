@@ -1,0 +1,94 @@
+
+
+body {
+  background-color: #234349;
+}
+
+
+.image_box_container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.image_box {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 8%;
+  margin-top: 5%;
+  box-shadow: 0 0 3px 2px #1b3439;
+  background-color: #faf5e9;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+
+img {
+  height: 80px;
+  width: auto;
+}
+
+
+.about_box {
+  border-radius: 8px;
+  padding: 5%;
+  box-shadow: 0 0 5px 2px #faf5e9;
+  align-items: center;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.pages {
+  color: #faf5e9;
+  text-align: center;
+  font-size: 3rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Gurajada;
+}
+button {
+  background-color: #1b3439;
+  border-radius: 8%;
+  color: #faf5e9;
+}
+.about_container h1 {
+  margin-bottom: 20px;
+}
+.about_container {
+  margin-top: 8%;
+  font-size: 2rem;
+  padding: 0% 7%;
+  position: relative;
+}
+.about_box {
+  border-radius: 8px;
+  padding: 5%;
+  box-shadow: 0 0 5px 2px #faf5e9;
+}
+
+.contact_container {
+  margin-top: 8%;
+  font-size: 2rem;
+  padding: 0% 20%;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+
+}
